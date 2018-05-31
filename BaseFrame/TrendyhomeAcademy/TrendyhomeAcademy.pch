@@ -1,0 +1,42 @@
+//
+//  TrendyhomeAcademy.pch
+//  TrendyhomeAcademy
+//
+//  Created by Fashion+ on 2018/4/20.
+//  Copyright © 2018年 Fashion+. All rights reserved.
+//
+
+#ifndef TrendyhomeAcademy_pch
+#define TrendyhomeAcademy_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+//系统
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+
+//第三方
+#import <Masonry/Masonry.h>
+#import <ReactiveObjC/ReactiveObjC.h>
+//#import <YYKeyboardManager/YYKeyboardManager.h>
+#import <SDWebImage/UIImageView+WebCache.h>
+#import <MBProgressHUD/MBProgressHUD.h>
+#import <YYCategories/YYCategories.h>
+#import <MJExtension/MJExtension.h>
+
+
+//全局宏
+#import "FontAndColorMacros.h"
+#import "UtilsMacros.h"
+#import "APIMacros.h"
+//工具
+#import "FSNetworkHelper.h"
+#import "Observe_RAC.h"
+#import "FSSetNetImage.h"
+#import "UIView+MH.h"
+
+
+
+#endif /* TrendyhomeAcademy_pch */

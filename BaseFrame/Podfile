@@ -1,0 +1,26 @@
+
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/aliyun/aliyun-specs.git'
+
+platform:ios,'8.0'
+
+target "TrendyhomeAcademy" do
+    use_frameworks!
+
+    pod 'AFNetworking'
+    pod 'MJRefresh'
+    pod 'SDWebImage'
+    pod 'MBProgressHUD'
+    pod 'Masonry'
+    pod 'MJExtension'
+    pod 'ReactiveObjC'
+    pod 'YYCache'
+#    pod 'YYKeyboardManager'
+    pod 'YYCategories'
+    pod 'LPActionSheet'
+    pod 'SDCycleScrollView'
+    pod 'YPTabBarController'
+    pod 'IQKeyboardManager'
+    
+end
+
